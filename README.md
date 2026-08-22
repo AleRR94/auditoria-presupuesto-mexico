@@ -1,1 +1,2 @@
-# auditoria-presupuesto-mexico
+## 📂 Fuente de Datos
+Debido a la gran dimensión de la base de datos original, la cual supera los límites de almacenamiento de GitHub, los datos crudos no se pudieron adjuntar a este repositorio. Puede descargar la base de datos oficial y actualizada directamente desde el portal de Datos Abiertos del Gobierno de México: https://www.datos.gob.mx/dataset/presupuesto_egresos_federacion_avance_gasto_trimestre/resource/92911c98-8886-480a-91be-e1a95ecec456 
