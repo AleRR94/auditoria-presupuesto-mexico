@@ -1,9 +1,13 @@
-# Auditoría Presupuestaria: Desviaciones y Calidad del Gasto Público (Gasto por trimestre 2026)
+# Auditoría Presupuestaria: Desviaciones y calidad del Gasto Público (Gasto por trimestre abril - junio 2026)
 
 ## 📌 Descripción del Proyecto
-En este proyecto se pretende evaluar la eficiencia operativa del gasto público en México durante un trimestre. A través de un enfoque analítico híbrido, se revisó el cumplimiento del presupuesto federal para detectar subejercicios nominales, se evaluó la centralización de los recursos y también la calidad del gasto (burocracia vs inversión en el futuro). 
+En este proyecto se pretende evaluar la eficiencia operativa del gasto público en México durante el trimestre de abril a junio. A través de un enfoque analítico híbrido, se revisó el cumplimiento del presupuesto federal para detectar subejercicios nominales, se evaluó la centralización de los recursos y también la calidad del gasto (burocracia vs inversión en el futuro). 
 
 Para este trabajo se utilizaron miles de registros oficiales mediante **SQL (SQLite)** para la agregación masiva, **Python (Pandas)** para el cálculo automatizado de variaciones porcentuales y **Tableau** para el diseño de un tablero interactivo.
+
+## Meta SMART:
+
+
 
 ## 📂 Fuente de Datos
 Debido a la gran dimensión de la base de datos original, la cual supera los límites de almacenamiento de GitHub, los datos crudos no se pudieron adjuntar a este repositorio. Puede descargar la base de datos oficial y actualizada directamente desde el portal de Datos Abiertos del Gobierno de México: https://www.datos.gob.mx/dataset/presupuesto_egresos_federacion_avance_gasto_trimestre/resource/92911c98-8886-480a-91be-e1a95ecec456.  
@@ -15,7 +19,7 @@ Debido a la gran dimensión de la base de datos original, la cual supera los lí
 
 ---
 
-## 🎯 Metodología
+## 🎯 Metodología y Fases del análisis
 
 ### 📊 1. Análisis Descriptivo (SQL y Python)
 * **Consolidación de la Promesa vs. Realidad:** Agregación de datos a nivel estatal y federal en SQL para calcular medias aritméticas y sumas acumuladas de montos aprobados frente a montos pagados, utilizando funciones `COALESCE` para blindar la integridad matemática contra valores nulos.
