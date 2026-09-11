@@ -9,6 +9,8 @@ Para este trabajo se utilizaron miles de registros oficiales mediante **SQL (SQL
 Debido a la gran dimensión de la base de datos original, la cual supera los límites de almacenamiento de GitHub, los datos crudos no se pudieron adjuntar a este repositorio. Puede descargar la base de datos oficial y actualizada directamente desde el portal de Datos Abiertos del Gobierno de México: https://www.datos.gob.mx/dataset/presupuesto_egresos_federacion_avance_gasto_trimestre/resource/92911c98-8886-480a-91be-e1a95ecec456.  
 
 ## 📊 Tablero Interactivo (Tableau)
+<img width="1920" height="1044" alt="2026-09-11" src="https://github.com/user-attachments/assets/1bf843b2-e569-4dea-a249-8a4589ac4167" />
+
 👉 [**Haz clic aquí para interactuar con el Dashboard en Tableau Public** (https://public.tableau.com/shared/QPS2MMQKH?:display_count=n&:origin=viz_share_link)
 
 ---
