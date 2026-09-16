@@ -1,12 +1,10 @@
 # Auditoría Presupuestaria: Desviaciones y calidad del Gasto Público (Gasto por trimestre abril - junio 2026)
 
 ## 📌 Descripción del Proyecto
-En este proyecto se pretende evaluar la eficiencia operativa del gasto público en México durante el trimestre de abril a junio. A través de un enfoque analítico híbrido, se revisó el cumplimiento del presupuesto federal para detectar subejercicios nominales, se evaluó la centralización de los recursos y también la calidad del gasto (burocracia vs inversión en el futuro). 
-
-Para este trabajo se utilizaron miles de registros oficiales mediante **SQL (SQLite)** para la agregación masiva, **Python (Pandas)** para el cálculo automatizado de variaciones porcentuales y **Tableau** para el diseño de un tablero interactivo.
+En este proyecto se pretende evaluar la eficiencia operativa del gasto público en México durante el trimestre de abril a junio. A través de un enfoque analítico híbrido. Para este trabajo se utilizaron miles de registros oficiales mediante **SQL (SQLite)** para la agregación masiva, **Python (Pandas)** para el cálculo automatizado de variaciones porcentuales y **Tableau** para el diseño de un tablero interactivo.
 
 ## Meta SMART:
-
+Verificar si el presupuesto programado se cumplió para cada estado y sector, o si en su defecto, hubo ejercicios nominales. Aunando una evaluación de la calidad del gasto (burocracia vs inversión en el futuro).
 
 
 ## 📂 Fuente de Datos
