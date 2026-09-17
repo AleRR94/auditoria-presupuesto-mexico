@@ -1,32 +1,31 @@
-WITH totales_ramos_federal AS (
+WITH globales AS (
+    -- Calcular el dinero total del país
+    SELECT 
+        SUM(COALESCE(monto_aprobado, 0)) AS Gran_Total_Aprobado,
+        SUM(COALESCE(monto_pagado, 0)) AS Gran_Total_Pagado
+    FROM presupuesto
+),
+totales_por_ramo AS (
+    -- Sumar por sector
     SELECT 
         desc_ramo AS Sector,
-        
-        -- Medias de cada ramo por estado, tanto aprobado como pagado
-        ROUND(AVG(COALESCE(monto_aprobado, 0)), 2) AS Media_Ap_Ramo_Federal,
-        ROUND(AVG(COALESCE(monto_pagado, 0)), 2) AS Media_Pa_Ramo_Federal,
-        
-        -- Suma de cada estado, tanto aprobado como pagado
-        SUM(COALESCE(monto_aprobado, 0)) AS Suma_Ap_Ramo_Federal,
-        SUM(COALESCE(monto_pagado, 0)) AS Suma_Pa_Ramo_Federal,
-        
-        -- Suma total de todo lo asignado a cada estado para sacar el porcentaje local
-        SUM(SUM(COALESCE(monto_aprobado, 0))) OVER() AS Total_Ap_Federal,
-        SUM(SUM(COALESCE(monto_pagado, 0))) OVER() AS Total_Pa_Federal
-        
+        ROUND(AVG(COALESCE(monto_aprobado, 0)), 2) AS Media_Ap,
+        ROUND(AVG(COALESCE(monto_pagado, 0)), 2) AS Media_Pa,
+        SUM(COALESCE(monto_aprobado, 0)) AS Sum_Aprobado,
+        SUM(COALESCE(monto_pagado, 0)) AS Sum_Pagado
     FROM presupuesto
     GROUP BY desc_ramo
 )
+-- Calcular porcentajes
 SELECT 
-    Sector,
-    Media_Ap_Ramo_Federal,
-    ROUND(Suma_Ap_Ramo_Federal, 2) AS Total_Ap_Federal,
-    -- Porcentaje de cada ramo respecto a lo aprobado total para cada estado
-    ROUND((Suma_Ap_Ramo_Federal / Total_Ap_Federal) * 100.00, 2) AS Pct_Aprobado,
+    t.Sector,
+    t.Media_Ap,
+    ROUND(t.Sum_Aprobado, 2) AS SumTotal_Aprobado,
+    ROUND((t.Sum_Aprobado / g.Gran_Total_Aprobado) * 100, 2) AS Pct_Aprobado,
     
-    Media_Pa_Ramo_Federal,
-    ROUND(Suma_Pa_Ramo_Federal, 2) AS Total_Pa_Federal,
-    -- Porcentaje de cada ramo respecto a lo pagado total por cada estado
-    ROUND((Suma_Pa_Ramo_Federal / Total_Pa_Federal) * 100.00, 2) AS Pct_Pagado
-FROM totales_ramos_federal
-ORDER BY Total_Pa_Federal DESC;
+    t.Media_Pa,
+    ROUND(t.Sum_Pagado, 2) AS SumTotal_Pagado,
+    ROUND((t.Sum_Pagado / g.Gran_Total_Pagado) * 100, 2) AS Pct_Pagado
+FROM totales_por_ramo t
+CROSS JOIN globales g 
+ORDER BY t.Sum_Aprobado DESC;
