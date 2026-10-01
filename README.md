@@ -11,9 +11,9 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 
 * ¿Cuánto se destinó a inversión/capital y cuánto a gasto corriente?
 
-* ¿Se respetaron los acuerdos presupuestarios?
+* ¿Se respetaron los acuerdos presupuestarios establecidos con anterioridad?
 
-* ¿Hubo eficiencia y calidad en los gastos?
+* ¿A cuál bloque financiero se direccionó la mayor parte del presupuesto?
 
 ---
 
