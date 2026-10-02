@@ -38,7 +38,14 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 👉 [**Haz clic aquí para interactuar con el Dashboard en Tableau Public** (https://public.tableau.com/shared/QPS2MMQKH?:display_count=n&:origin=viz_share_link)
 
 ## ✨ Conclusiones generales e insights
-
+1. No se respetó el acuerdo presupuestario acordado, la cantidad entregada fue mucho menor. En promedio, a cada sector se le entregó el 24.10% y a cada estado se le entregó el 27.74% de lo estipulado.
+2. En cuanto a calidad de gasto, se enlistan los primeros cinco lugares de los sectores que implican el mayor gasto:
+   * Aportaciones a Seguridad Social (a grandes rasgos, pensiones y jubilaciones)
+   * Participaciones a Entidades Federativas y Municipios (Ramo 28, se entrega una parte a cada estado y este se gasta libremente dependiendo de cada uno)
+   * Instituto Mexicano del Seguro Social (mantener la infraestructura hospitalaria, compra de medicamente, pago de personal médico, pensiones, subsidios, guarderías, servicios sociales)
+   * Aportaciones Federales para Entidades Federativas y Municipios (este gasto se divide a su vez en otros sectores y debe garantizar el bienestar de la población e infraestructura de cada estado)
+   * Deuda Publica (pago al conjunto de obligaciones financieras del sector público)
+Se puede observar que el mayor gasto son las pensiones, esto nos arroja que el gasto si bien no es de mala calidad, nos dice que los adultos mayores cada vez son mayor y está causando un impacto directo a la economía desde 2025, según 
 
 ## 📂 Fuente de Datos
 Debido a la gran dimensión de la base de datos original, la cual supera los límites de almacenamiento de GitHub, los datos crudos no se pudieron adjuntar a este repositorio. Puede descargar la base de datos oficial y actualizada directamente desde el portal de Datos Abiertos del Gobierno de México: https://www.datos.gob.mx/dataset/presupuesto_egresos_federacion_avance_gasto_trimestre/resource/92911c98-8886-480a-91be-e1a95ecec456.  
