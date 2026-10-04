@@ -21,12 +21,12 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 ## 🎯 Metodología y fases del análisis
 
 ### 📊 1. Análisis Descriptivo (SQL y Python)
-* **Promesa vs. Realidad:** Agregación de datos del gobierno federal en SQL para calcular medias aritméticas y sumas acumuladas de montos aprobados frente a montos pagados, utilizando funciones 'COALESCE' para blindar la integridad matemática contra valores nulos.
+* **Promesa vs. Realidad:** Agregación de datos del gobierno federal en SQL para calcular medias aritméticas y sumas acumuladas de montos aprobados frente a montos pagados, utilizando funciones `COALESCE` para blindar la integridad matemática contra valores nulos.
 * **Variación Automatizada (Python):** Modelado de la variación porcentual real sobre datos limpios utilizando la librería Pandas para identificar los estados con mayores recortes presupuestarios.
 
 ### 🔍 2. Análisis Diagnóstico (SQL y Tableau)
 * **Clasificación Estructural:** Agrupación y ordenamiento de los Ramos (Sectores) federales y estatales de mayor a menor impacto presupuestal para identificar el nivel de centralización del gasto.
-* **Calidad del Gasto (Estructura de Grupos):** Clasificación de las partidas en tres bloques financieros (*Gasto Corriente/Operativo*, *Ramo 28 - Participaciones* y *Gasto de Capital/Inversión*) [2.1] utilizando la función 'PARTITION BY', para diagnosticar la asfixia presupuestaria de la infraestructura.
+* **Calidad del Gasto (Estructura de Grupos):** Clasificación de las partidas en tres bloques financieros (*Gasto Corriente/Operativo*, *Ramo 28 - Participaciones* y *Gasto de Capital/Inversión*) [2.1] utilizando la función `PARTITION BY`, para diagnosticar la asfixia presupuestaria de la infraestructura.
 
 ### 🎯 3. Análisis Prescriptivo (Conclusiones de la Auditoría)
 * **Recomendaciones de Control:** Formulación de propuestas y hallazgos clave orientados a la optimización de los recursos, la transparencia en la reasignación de partidas presupuestales y el fortalecimiento de la inversión pública.
