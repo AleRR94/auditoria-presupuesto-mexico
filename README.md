@@ -53,7 +53,7 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 
 * La salud es otro de los factores con mayor importancia dentro del presupuesto (puesto número 3,13 o 23), se considera un gasto acertado. Sin embargo, sectores como la educación (puesto número 10, 21 o 22) o los relacionados con la infraestructura y mejora de ciudades y desarrollo de zonas rurales (puesto número 15, 20 o 38), se están viendo relegados y se considera indispensable favorecer económicamente más estos puntos.
 
-* No se respetó el acuerdo presupuestario acordado, la cantidad entregada fue mucho menor. En promedio, a cada sector se le entregó el 24.10% y por cada estado se le entregó el 27.74% de lo estipulado respectivamente.
+* Al corte del segundo trimestre, en promedio, a cada sector se le entregó el 24.10% y a cada estado se le entregó el 27.74% respecto al presupuesto anual aprobado, lo que puede indicar subejercicios o una estrategia de gasto conservadora.
  
 * A primera vista pareciera que el gasto está centralizado en la CDMX, pero no es así. Como ya vimos el gasto más fuerte son las pensiones contributivas, y justo este es el primer rubro de mayor gasto en la CDMX, pero todo ese dinero no se queda ahí, se distribuye entre las sedes principales ubicadas en la capital, para después redistribuirse por el resto del país, así que se puede concluir que el dinero no está centralizado.
 
