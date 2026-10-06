@@ -4,7 +4,7 @@
 En este proyecto se pretende evaluar la eficiencia operativa del gasto público en México durante el trimestre de abril a junio. A través de un enfoque analítico híbrido. Para este trabajo se utilizaron miles de registros oficiales mediante **SQL (SQLite)** para la agregación masiva, **Python (Pandas)** para el cálculo automatizado de variaciones porcentuales y **Tableau** para el diseño de un tablero interactivo.
 
 ## 🏁 Meta SMART:
-Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversión) en cada estado y sector, corroborando si lo entregado fue lo que se había pactado previamente, o si en su defecto, hubo ejercicios nominales.
+Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversión) en cada estado y sector, corroborando si lo entregado fue lo que se había pactado previamente, o si en su defecto, hubo subejercicios nominales.
 
 ### Preguntas SMART:
 * ¿Cuánto dinero se gastó en cada estado y sector respectivamente? ¿Existe centralización? (*Ver resultados en el Dashboard Interactivo en Tableu Public*)
@@ -63,15 +63,15 @@ Debido a la gran dimensión de la base de datos original, la cual supera los lí
 Para la validación del marco macroeconómico, los catálogos administrativos y el comportamiento de los ramos analizados en este modelo, se tomaron como base los documentos oficiales del Paquete Económico:
 
 * **Secretaría de Hacienda y Crédito Público (SHCP):** *Paquete Económico 2026 - Anexos Informativos del Presupuesto de Egresos de la Federación (PEF)*. Portal oficial de transparencia presupuestaria. 
-  - Consulta de *Distribución del gasto por unidad responsable y al nivel de desagregación de capítulo y concepto de gasto*. Así como también *Distribución del gasto al nivel de agregación de capítulo y concepto de gasto*. Disponible en: [Plataforma PPEF Hacienda](https://www.ppef.hacienda.gob.mx/es/PPEF2026/anexos)
+  - Consulta de *Distribución del gasto por unidad responsable y al nivel de desagregación de capítulo y concepto de gasto*. Así como también *Distribución del gasto al nivel de agregación de capítulo y concepto de gasto*. Disponible en: [Plataforma PPEF Hacienda](https://www.ppef.hacienda.gob.mx/es/PPEF2026/anexos).
 
 ## 📖 Glosario de Términos
 
-* **Monto Aprobado:** Presupuesto original asignado y publicado en el papel por el Congreso al inicio del ciclo fiscal.
+* **Monto Aprobado:** Presupuesto original asignado y publicado por el Congreso al inicio del ciclo fiscal.
 * **Monto Pagado:** Desembolso de dinero real y final ejecutado por la federación al cierre del trimestre.
 * **Gasto Corriente / Operativo:** Recursos destinados a mantener la maquinaria burocrática diaria (nóminas, operación administrativa, subsidios y pensiones) [2.1].
 * **Gasto de Capital / Inversión:** Fondos públicos dirigidos estrictamente a la construcción de infraestructura, bienes públicos y proyectos de desarrollo a futuro (carreteras, hospitales, escuelas) [2.1].
-* **Ramo 28 (Participaciones):** Recursos federales no etiquetados que se transfieren a los estados; historial macroeconómico demuestra que suelen consumirse en gasto corriente y no en infraestructura.
-* **Subejercicio:** Desviación presupuestaria donde el dinero pagado es menor al aprobado, revelando recortes o ineficiencia en la ejecución del gasto [2.1].
+* **Ramo 28 (Participaciones):** Recursos federales no etiquetados que se transfieren a los estados.
+* **Subejercicio nominal:** Desviación presupuestaria donde el dinero pagado es menor al aprobado, revelando recortes o ineficiencia en la ejecución del gasto [2.1].
 
 
