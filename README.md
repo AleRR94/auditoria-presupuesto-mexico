@@ -37,7 +37,7 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 <img width="1920" height="1039" alt="2026-10-04 (1)" src="https://github.com/user-attachments/assets/565655c3-4f8d-4024-933d-7d060e6009fa" />
 
 
-👉 [**Haz clic aquí para interactuar con el Dashboard en Tableau Public**] (https://public.tableau.com/shared/QPS2MMQKH?:display_count=n&:origin=viz_share_link)
+👉 [**Haz clic aquí para interactuar con el Dashboard en Tableau Public**](https://public.tableau.com/shared/QPS2MMQKH?:display_count=n&:origin=viz_share_link)
 
 ## ✨ Conclusiones generales e insights
 (Las siguientes conclusiones se limitan a lo que los datos dicen, ya que ahondar en cada sector o estado es bastante complejo y abarca muchos matices).
@@ -57,8 +57,13 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
  
 * A primera vista pareciera que el gasto está centralizado en la CDMX, pero no es así. Como ya vimos el gasto más fuerte son las pensiones contributivas, y justo este es el primer rubro de mayor gasto en la CDMX, pero todo ese dinero no se queda ahí, se distribuye entre las sedes principales ubicadas en la capital, para después redistribuirse por el resto del país, así que se puede concluir que el dinero no está centralizado.
 
-## 📂 Fuente de Datos
-Debido a la gran dimensión de la base de datos original, la cual supera los límites de almacenamiento de GitHub, los datos crudos no se pudieron adjuntar a este repositorio. Puede descargar la base de datos oficial y actualizada directamente desde el portal de Datos Abiertos del Gobierno de México: https://www.datos.gob.mx/dataset/presupuesto_egresos_federacion_avance_gasto_trimestre/resource/92911c98-8886-480a-91be-e1a95ecec456.  
+## 📂 Fuentes de datos, información y referencias oficiales
+Debido a la gran dimensión de la base de datos original, la cual supera los límites de almacenamiento de GitHub, los datos crudos no se pudieron adjuntar a este repositorio. Puede descargar la base de datos oficial y actualizada directamente desde el **portal de Datos Abiertos del Gobierno de México**: https://www.datos.gob.mx/dataset/presupuesto_egresos_federacion_avance_gasto_trimestre/resource/92911c98-8886-480a-91be-e1a95ecec456.
+
+Para la validación del marco macroeconómico, los catálogos administrativos y el comportamiento de los ramos analizados en este modelo, se tomaron como base los documentos oficiales del Paquete Económico:
+
+* **Secretaría de Hacienda y Crédito Público (SHCP):** *Paquete Económico 2026 - Anexos Informativos del Presupuesto de Egresos de la Federación (PEF)*. Portal oficial de transparencia presupuestaria. 
+  - Consulta de *Distribución del gasto por unidad responsable y al nivel de desagregación de capítulo y concepto de gasto*. Así como también *Distribución del gasto al nivel de agregación de capítulo y concepto de gasto*. Disponible en: [Plataforma PPEF Hacienda](https://www.ppef.hacienda.gob.mx/es/PPEF2026/anexos)
 
 ## 📖 Glosario de Términos
 
