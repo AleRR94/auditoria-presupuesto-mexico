@@ -18,10 +18,15 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 
 ---
 
-## 🎯 Metodología y fases del análisis
+## 🧹 Metodología de limpieza
+- La integridad de estos datos recae en la página oficial del Gobierno de México.
+- Se utilizaron funciones `COALESCE` para blindar la integridad matemática contra valores nulos, ya que si se eliminaban comprometían el resultado obtenido.
+- A pesar de ser una base de datos gubernamental, no se encontraron datos duplicados.
+
+## 🎯 Fases del análisis
 
 ### 📊 1. Análisis Descriptivo (SQL y Python)
-* **Promesa vs. Realidad:** Agregación de datos del gobierno federal en SQL para calcular medias aritméticas y sumas acumuladas de montos aprobados frente a montos pagados, utilizando funciones `COALESCE` para blindar la integridad matemática contra valores nulos.
+* **Promesa vs. Realidad:** Agregación de datos del gobierno federal en SQL para calcular medias aritméticas y sumas acumuladas de montos aprobados frente a montos pagados. 
 * **Variación Automatizada (Python):** Modelado de la variación porcentual real sobre datos limpios utilizando la librería Pandas para identificar los estados con mayores recortes presupuestarios.
 
 ### 🔍 2. Análisis Diagnóstico (SQL y Tableau)
@@ -50,13 +55,15 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
    - Aportaciones Federales para Entidades Federativas y Municipios (este gasto se divide a su vez en otros sectores y debe garantizar el bienestar de la población e infraestructura de cada estado).
    - Deuda Pública (es el pago al conjunto de obligaciones financieras del sector público).
 
-* Se puede observar que el mayor gasto son las pensiones contributivas, posicionándose con un 15.74%.
+* Se puede observar que el mayor gasto son las pensiones contributivas, posicionándose con un 15.74%. Esto impacta directamente en la economía del país. La población en edad para trabajar disminuirá considerablemente, como consecuencia el PIB tendrá una reducción del 14% para el año 2060, es decir, la presión fiscal por las pensiones será aún mayor de acuerdo con la OCDE.
 
-* La salud es otro de los factores con mayor importancia dentro del presupuesto, en general se destina un total de 14.83%. Sin embargo, de acuerdo con la OCDE, México gasta 5.9% del PIB en salud, y el promedio es de 9.3%.
+* La salud es otro de los factores con mayor importancia dentro del presupuesto, en general se destina un total de 14.83%. Sin embargo, México gasta 5.9% del PIB en salud, y el promedio OCDE es de 9.3%.
 
-* Sectores como la educación, o los relacionados con la infraestructura y mejora de ciudades y desarrollo de zonas rurales, se están viendo relegados con un 4.28% y 1.67% respectivamente.
+* Al sector de la educación, se le destina un total de 4.28% del total del presupuesto. Y según datos de la OCDE, México le destina un 4.3% del PIB, pero el promedio ronda en 4.7%. Es decir, se necesitan más recursos en este ramo.
 
-* Al corte del segundo trimestre, en promedio, a cada sector se le entregó el 24.10% y a cada estado se le entregó el 27.74% respecto al presupuesto anual aprobado, lo que puede indicar subejercicios o una estrategia de gasto conservadora.
+* Los sectores relacionados a la infraestructura y mejora de ciudades y desarrollo de zonas rurales, se están viendo relegados con un porcentaje de 1.67% en conjunto.
+
+* Al corte del segundo trimestre, en promedio, a cada sector se le entregó el 24.10% y a cada estado se le entregó el 27.74% respecto al 33.33% que correspondería al trimestre del presupuesto anual aprobado, lo que puede indicar subejercicios o una estrategia de gasto conservadora.
  
 * A primera vista pareciera que el gasto está centralizado en la CDMX, pero no es así. Como ya vimos el gasto más fuerte son las pensiones contributivas, y justo este es el primer rubro de mayor gasto en la CDMX, pero todo ese dinero no se queda ahí, se distribuye entre las sedes principales ubicadas en la capital, para después redistribuirse por el resto del país, así que se puede concluir que el dinero no está centralizado.
 
@@ -68,10 +75,20 @@ Para la validación del marco macroeconómico, los catálogos administrativos y 
 * **Secretaría de Hacienda y Crédito Público (SHCP):** *Paquete Económico 2026 - Anexos Informativos del Presupuesto de Egresos de la Federación (PEF)*. Portal oficial de transparencia presupuestaria. 
   - Consulta de *Distribución del gasto por unidad responsable y al nivel de desagregación de capítulo y concepto de gasto*. Así como también *Distribución del gasto al nivel de agregación de capítulo y concepto de gasto*. Disponible en: [Plataforma PPEF Hacienda](https://www.ppef.hacienda.gob.mx/es/PPEF2026/anexos).
 
-* **Organisation for Economic Co-operation and Development:** *Panorama de la salud 2025: México*.
+* **Organisation for Economic Co-operation and Development:**
+* *Panorama de la salud 2025: México*.
+ Disponible en: https://www.oecd.org/es/publications/2025/11/health-at-a-glance-2025-country-notes_2f94481e/mexico_0c55bf71.html
+
+*Panorama de la educación en México 2025*.
+Disponible en: https://www.oecd.org/en/publications/education-at-a-glance-2025_1a3543e2-en/mexico_3b36a6f6-en.html
+
   - En caso de discrepancia entre la obra original y la traducción, solo se considerará válido el texto de la obra original.
   - Esta es una adaptación de un trabajo original de la OCDE. No se debe informar que las opiniones expresadas y los argumentos empleados en esta adaptación representan los puntos de vista oficiales de la OCDE o de sus países miembros.
-Disponible en: https://www.oecd.org/es/publications/2025/11/health-at-a-glance-2025-country-notes_2f94481e/mexico_0c55bf71.html 
+
+*El rápido envejecimiento de la población seguirá ejerciendo presión sobre los sistemas de pensiones*.
+Fecha: 27 Noviembre 2025
+Disponible en: https://www.oecd.org/es/about/news/press-releases/2025/11/rapidly-ageing-populations-will-continue-to-put-pressure-on-pension-systems.html 
+
 
 ## 📖 Glosario de Términos
 
