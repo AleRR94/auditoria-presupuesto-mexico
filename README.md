@@ -21,7 +21,7 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 ## 🧹 Metodología de limpieza
 - La integridad de estos datos recae en la página oficial del Gobierno de México.
 - Se utilizaron funciones `COALESCE` para blindar la integridad matemática contra valores nulos, ya que si se eliminaban comprometían el resultado obtenido.
-- A pesar de ser una base de datos gubernamental, no se encontraron datos duplicados.
+- A pesar de ser una base de datos gubernamental, no se encontraron datos duplicados. La única modificación necesaria fue cambiar de `REAL` a `INTEGER` la columna de "Año" como mejora visual.
 
 ## 🎯 Fases del análisis
 
