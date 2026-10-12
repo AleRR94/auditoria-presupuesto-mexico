@@ -48,20 +48,20 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 ## ✨ Conclusiones generales e insights
 (Las siguientes conclusiones se limitan a lo que los datos dicen, ya que ahondar en cada sector o estado es bastante complejo y abarca muchos matices).
 
-* A continuación, se enlistan los primeros cinco lugares de los sectores que implican el mayor gasto:
-   - Aportaciones a Seguridad Social (a grandes rasgos, pensiones contributivas y jubilaciones).
-   - Participaciones a Entidades Federativas y Municipios (Ramo 28, se reparte entre cada estado y este se gasta libremente dependiendo de lo que decida cada gobierno estatal).
-   - Instituto Mexicano del Seguro Social (va dirigido a mantener la infraestructura hospitalaria, compra de medicamentos, pago de personal médico, pensiones, subsidios, guarderías, servicios sociales).
-   - Aportaciones Federales para Entidades Federativas y Municipios (este gasto se divide a su vez en otros sectores y debe garantizar el bienestar de la población e infraestructura de cada estado).
-   - Deuda Pública (es el pago al conjunto de obligaciones financieras del sector público).
+* A continuación, se enlistan los cinco pimeros lugares de los sectores que implican el mayor gasto:
+   1. Aportaciones a Seguridad Social (a grandes rasgos, pensiones contributivas y jubilaciones).
+   2. Participaciones a Entidades Federativas y Municipios (Ramo 28, se reparte entre cada estado y este se gasta libremente dependiendo de lo que decida cada gobierno estatal).
+   3. Instituto Mexicano del Seguro Social (va dirigido a mantener la infraestructura hospitalaria, compra de medicamentos, pago de personal médico, pensiones, subsidios, guarderías, servicios sociales).
+   4. Aportaciones Federales para Entidades Federativas y Municipios (este gasto se divide a su vez en otros sectores y debe garantizar el bienestar de la población e infraestructura de cada estado).
+   5. Deuda Pública (es el pago al conjunto de obligaciones financieras del sector público).
 
-* Se puede observar que el mayor gasto son las pensiones contributivas, posicionándose con un 15.74%. Esto impacta directamente en la economía del país. La población en edad para trabajar disminuirá considerablemente, como consecuencia el PIB tendrá una reducción del 14% para el año 2060, es decir, la presión fiscal por las pensiones será aún mayor de acuerdo con la OCDE.
+* Se puede observar que el mayor gasto son las pensiones contributivas, posicionándose con un 15.74%. Esto impacta directamente en la economía del país. La población en edad para trabajar disminuirá considerablemente, como consecuencia el PIB tendrá una caída del 14% para el año 2060, es decir, la presión fiscal por las pensiones será aún mayor de acuerdo con la OCDE.
 
 * La salud es otro de los factores con mayor importancia dentro del presupuesto, en general se destina un total de 14.83%. Sin embargo, México gasta 5.9% del PIB en salud, y el promedio OCDE es de 9.3%.
 
-* Al sector de la educación, se le destina un total de 4.28% del total del presupuesto. Y según datos de la OCDE, México le destina un 4.3% del PIB, pero el promedio ronda en 4.7%. Es decir, se necesitan más recursos en este ramo.
+* Al sector de la educación, se le destina un total de 4.28% del total del presupuesto. Y según datos de la OCDE, México le destina un 4.3% del PIB, pero el promedio ronda en 4.7%. 
 
-* Los sectores relacionados a la infraestructura y mejora de ciudades y desarrollo de zonas rurales, se están viendo relegados con un porcentaje de 1.67% en conjunto.
+* Los sectores relacionados a la infraestructura y mejora de ciudades y desarrollo de zonas rurales, en conjunto suman un pocentaje de 1.67%.
 
 * Al corte del segundo trimestre, en promedio, a cada sector se le entregó el 24.10% y a cada estado se le entregó el 27.74% respecto al 33.33% que correspondería al trimestre del presupuesto anual aprobado, lo que puede indicar subejercicios o una estrategia de gasto conservadora.
  
