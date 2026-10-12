@@ -4,12 +4,12 @@
 En este proyecto se pretende evaluar la eficiencia operativa del gasto público en México durante el trimestre de abril a junio. A través de un enfoque analítico híbrido. Para este trabajo se utilizaron miles de registros oficiales mediante **SQL (SQLite)** para la agregación masiva, **Python (Pandas)** para el cálculo automatizado de variaciones porcentuales y **Tableau** para el diseño de un tablero interactivo.
 
 ## 🏁 Meta SMART:
-Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversión) en cada estado y sector, corroborando si lo entregado fue lo que se había pactado previamente, o si en su defecto, hubo subejercicios nominales.
+Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversión) en cada estado y sector, corroborando si lo entregado fue lo que se había pactado previamente, o si, por el contrario, hubo subejercicios nominales.
 
 ### Preguntas SMART:
-* ¿Cuánto dinero se gastó en cada estado y sector respectivamente? ¿Existe centralización? (*Ver resultados en el Dashboard Interactivo en Tableu Public*)
+* ¿Cuánto dinero se gastó en cada estado y sector respectivamente? ¿Existe centralización? (*Ver resultados en el Dashboard Interactivo en Tableau Public*)
 
-* ¿Cuánto se destinó a inversión/capital y cuánto a gasto corriente? (*Ver resultados en el Dashboard Interactivo en Tableu Public*)
+* ¿Cuánto se destinó a inversión/capital y cuánto a gasto corriente? (*Ver resultados en el Dashboard Interactivo en Tableau Public*)
 
 
 * ¿Se respetaron los acuerdos presupuestarios establecidos con anterioridad?
@@ -48,7 +48,7 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 ## ✨ Conclusiones generales e insights
 (Las siguientes conclusiones se limitan a lo que los datos dicen, ya que ahondar en cada sector o estado es bastante complejo y abarca muchos matices).
 
-* A continuación, se enlistan los cinco pimeros lugares de los sectores que implican el mayor gasto:
+* A continuación, se enlistan los cinco primeros lugares de los sectores que implican el mayor gasto:
    1. Aportaciones a Seguridad Social (a grandes rasgos, pensiones contributivas y jubilaciones).
    2. Participaciones a Entidades Federativas y Municipios (Ramo 28, se reparte entre cada estado y este se gasta libremente dependiendo de lo que decida cada gobierno estatal).
    3. Instituto Mexicano del Seguro Social (va dirigido a mantener la infraestructura hospitalaria, compra de medicamentos, pago de personal médico, pensiones, subsidios, guarderías, servicios sociales).
@@ -61,7 +61,7 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 
 * Al sector de la educación, se le destina un total de 4.28% del total del presupuesto. Y según datos de la OCDE, México le destina un 4.3% del PIB, pero el promedio ronda en 4.7%. 
 
-* Los sectores relacionados a la infraestructura y mejora de ciudades y desarrollo de zonas rurales, en conjunto suman un pocentaje de 1.67%.
+* Los sectores relacionados a la infraestructura y mejora de ciudades y desarrollo de zonas rurales, en conjunto suman un porcentaje de 1.67%.
 
 * Al corte del segundo trimestre, en promedio, a cada sector se le entregó el 24.10% y a cada estado se le entregó el 27.74% respecto al 33.33% que correspondería al trimestre del presupuesto anual aprobado, lo que puede indicar subejercicios o una estrategia de gasto conservadora.
  
@@ -76,16 +76,16 @@ Para la validación del marco macroeconómico, los catálogos administrativos y 
   - Consulta de *Distribución del gasto por unidad responsable y al nivel de desagregación de capítulo y concepto de gasto*. Así como también *Distribución del gasto al nivel de agregación de capítulo y concepto de gasto*. Disponible en: [Plataforma PPEF Hacienda](https://www.ppef.hacienda.gob.mx/es/PPEF2026/anexos).
 
 * **Organisation for Economic Co-operation and Development:**
-* *Panorama de la salud 2025: México*.
+   * *Panorama de la salud 2025: México*.
  Disponible en: https://www.oecd.org/es/publications/2025/11/health-at-a-glance-2025-country-notes_2f94481e/mexico_0c55bf71.html
 
-*Panorama de la educación en México 2025*.
+   * *Panorama de la educación en México 2025*.
 Disponible en: https://www.oecd.org/en/publications/education-at-a-glance-2025_1a3543e2-en/mexico_3b36a6f6-en.html
 
   - En caso de discrepancia entre la obra original y la traducción, solo se considerará válido el texto de la obra original.
   - Esta es una adaptación de un trabajo original de la OCDE. No se debe informar que las opiniones expresadas y los argumentos empleados en esta adaptación representan los puntos de vista oficiales de la OCDE o de sus países miembros.
 
-*El rápido envejecimiento de la población seguirá ejerciendo presión sobre los sistemas de pensiones*.
+   * *El rápido envejecimiento de la población seguirá ejerciendo presión sobre los sistemas de pensiones*.
 Fecha: 27 Noviembre 2025
 Disponible en: https://www.oecd.org/es/about/news/press-releases/2025/11/rapidly-ageing-populations-will-continue-to-put-pressure-on-pension-systems.html 
 
