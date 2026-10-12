@@ -82,8 +82,8 @@ Para la validación del marco macroeconómico, los catálogos administrativos y 
    * *Panorama de la educación en México 2025*.
 Disponible en: https://www.oecd.org/en/publications/education-at-a-glance-2025_1a3543e2-en/mexico_3b36a6f6-en.html
 
-  - En caso de discrepancia entre la obra original y la traducción, solo se considerará válido el texto de la obra original.
-  - Esta es una adaptación de un trabajo original de la OCDE. No se debe informar que las opiniones expresadas y los argumentos empleados en esta adaptación representan los puntos de vista oficiales de la OCDE o de sus países miembros.
+     - En caso de discrepancia entre la obra original y la traducción, solo se considerará válido el texto de la obra original.
+     - Esta es una adaptación de un trabajo original de la OCDE. No se debe informar que las opiniones expresadas y los argumentos empleados en esta adaptación representan los puntos de vista oficiales de la OCDE o de sus países miembros.
 
    * *El rápido envejecimiento de la población seguirá ejerciendo presión sobre los sistemas de pensiones*.
 Fecha: 27 Noviembre 2025
