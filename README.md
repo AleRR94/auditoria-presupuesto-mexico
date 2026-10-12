@@ -26,7 +26,7 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 
 ### 🔍 2. Análisis Diagnóstico (SQL y Tableau)
 * **Clasificación Estructural:** Agrupación y ordenamiento de los Ramos (Sectores) federales y estatales de mayor a menor impacto presupuestal para identificar el nivel de centralización del gasto.
-* **Calidad del Gasto (Estructura de Grupos):** Clasificación de las partidas en tres bloques financieros (*Gasto Corriente/Operativo*, *Ramo 28 - Participaciones* y *Gasto de Capital/Inversión*) [2.1] utilizando la función `PARTITION BY`, para diagnosticar la asfixia presupuestaria de la infraestructura.
+* **Calidad del Gasto (Estructura de Grupos):** Clasificación de las partidas en tres bloques financieros (*Gasto Corriente/Operativo*, *Ramo 28 - Participaciones* y *Gasto de Capital/Inversión*) utilizando la función `PARTITION BY`, para diagnosticar la asfixia presupuestaria de la infraestructura.
 
 ### 🎯 3. Análisis Prescriptivo (Conclusiones de la Auditoría)
 * **Recomendaciones de Control:** Formulación de propuestas y hallazgos clave orientados a la optimización de los recursos, la transparencia en la reasignación de partidas presupuestales y el fortalecimiento de la inversión pública.
@@ -34,7 +34,8 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
 ---
 
 ## 📊 Dashboard Interactivo (Tableau)
-<img width="1920" height="1039" alt="2026-10-04 (1)" src="https://github.com/user-attachments/assets/565655c3-4f8d-4024-933d-7d060e6009fa" />
+<img width="1920" height="1039" alt="2026-10-11 (1)" src="https://github.com/user-attachments/assets/bc9e1319-35e8-40fa-9cb8-fdb01cf2a04e" />
+
 
 
 👉 [**Haz clic aquí para interactuar con el Dashboard en Tableau Public**](https://public.tableau.com/shared/QPS2MMQKH?:display_count=n&:origin=viz_share_link)
@@ -49,9 +50,11 @@ Analizar y evaluar la calidad del gasto público federal (burocracia vs. inversi
    - Aportaciones Federales para Entidades Federativas y Municipios (este gasto se divide a su vez en otros sectores y debe garantizar el bienestar de la población e infraestructura de cada estado).
    - Deuda Pública (es el pago al conjunto de obligaciones financieras del sector público).
 
-* Se puede observar que el mayor gasto son las pensiones contributivas, esto nos arroja que el gasto si bien no es de mala calidad, nos dice que los adultos mayores son cada vez más y este fenómeno está causando un impacto directo a la economía.
+* Se puede observar que el mayor gasto son las pensiones contributivas, posicionándose con un 15.74%.
 
-* La salud es otro de los factores con mayor importancia dentro del presupuesto (puesto número 3,13 o 23), se considera un gasto acertado. Sin embargo, sectores como la educación (puesto número 10, 21 o 22) o los relacionados con la infraestructura y mejora de ciudades y desarrollo de zonas rurales (puesto número 15, 20 o 38), se están viendo relegados y se considera indispensable favorecer económicamente más estos puntos.
+* La salud es otro de los factores con mayor importancia dentro del presupuesto, en general se destina un total de 14.83%. Sin embargo, de acuerdo con la OCDE, México gasta 5.9% del PIB en salud, y el promedio es de 9.3%.
+
+* Sectores como la educación, o los relacionados con la infraestructura y mejora de ciudades y desarrollo de zonas rurales, se están viendo relegados con un 4.28% y 1.67% respectivamente.
 
 * Al corte del segundo trimestre, en promedio, a cada sector se le entregó el 24.10% y a cada estado se le entregó el 27.74% respecto al presupuesto anual aprobado, lo que puede indicar subejercicios o una estrategia de gasto conservadora.
  
@@ -65,13 +68,18 @@ Para la validación del marco macroeconómico, los catálogos administrativos y 
 * **Secretaría de Hacienda y Crédito Público (SHCP):** *Paquete Económico 2026 - Anexos Informativos del Presupuesto de Egresos de la Federación (PEF)*. Portal oficial de transparencia presupuestaria. 
   - Consulta de *Distribución del gasto por unidad responsable y al nivel de desagregación de capítulo y concepto de gasto*. Así como también *Distribución del gasto al nivel de agregación de capítulo y concepto de gasto*. Disponible en: [Plataforma PPEF Hacienda](https://www.ppef.hacienda.gob.mx/es/PPEF2026/anexos).
 
+* **Organisation for Economic Co-operation and Development:** *Panorama de la salud 2025: México*.
+  - En caso de discrepancia entre la obra original y la traducción, solo se considerará válido el texto de la obra original.
+  - Esta es una adaptación de un trabajo original de la OCDE. No se debe informar que las opiniones expresadas y los argumentos empleados en esta adaptación representan los puntos de vista oficiales de la OCDE o de sus países miembros.
+Disponible en: https://www.oecd.org/es/publications/2025/11/health-at-a-glance-2025-country-notes_2f94481e/mexico_0c55bf71.html 
+
 ## 📖 Glosario de Términos
 
 * **Monto Aprobado:** Presupuesto original asignado y publicado por el Congreso al inicio del ciclo fiscal.
 * **Monto Pagado:** Desembolso de dinero real y final ejecutado por la federación al cierre del trimestre.
-* **Gasto Corriente / Operativo:** Recursos destinados a mantener la maquinaria burocrática diaria (nóminas, operación administrativa, subsidios y pensiones) [2.1].
-* **Gasto de Capital / Inversión:** Fondos públicos dirigidos estrictamente a la construcción de infraestructura, bienes públicos y proyectos de desarrollo a futuro (carreteras, hospitales, escuelas) [2.1].
+* **Gasto Corriente / Operativo:** Recursos destinados a mantener la maquinaria burocrática diaria (nóminas, operación administrativa, subsidios y pensiones).
+* **Gasto de Capital / Inversión:** Fondos públicos dirigidos estrictamente a la construcción de infraestructura, bienes públicos y proyectos de desarrollo a futuro (carreteras, hospitales, escuelas).
 * **Ramo 28 (Participaciones):** Recursos federales no etiquetados que se transfieren a los estados.
-* **Subejercicio nominal:** Desviación presupuestaria donde el dinero pagado es menor al aprobado, revelando recortes o ineficiencia en la ejecución del gasto [2.1].
+* **Subejercicio nominal:** Desviación presupuestaria donde el dinero pagado es menor al aprobado, revelando recortes o ineficiencia en la ejecución del gasto.
 
 
